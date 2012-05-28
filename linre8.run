@@ -1,0 +1,1 @@
+LD_PRELOAD=/opt/acml4.4.0/gfortran64_mp/lib/libacml_mp.so LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/acml4.4.0/gfortran64_mp/lib python linre8.py
