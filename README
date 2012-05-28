@@ -1,0 +1,48 @@
+
+The linre*.py files reflect study steps.
+Scripts 12..29 are directly reflected in the thesis.
+
+univariate (old):
+3) 3D/2D Eex/em/correlation
+4) univariate prediction
+5,6) [?] univariate something
+
+eig method (old, not effective alg.):
+8) long eig calculation
+9) extracting best eigen-vectors
+10) [?] plot eigen-values to select number of primary components
+11) PCA prediction
+
+multivariate with validation:
+12) Interactive explorer of flu [!]
+13) PCA score plot
+14) PCA loadings plot
+15) PCA residuals (X) plot by variables (ex-em)
+16) PCA residuals (X) plots by samples
+17) PCR probe
+18) PCR K-fold cross-validation [!]
+19) PCR draft, (?) BIAS, prediction
+20) PCR metrics (cont 18)
+21) PLS probe, scores
+22) PLS loadings explorer (cont 21)
+23) PLS K-fold cross-validation (modelling part)
+24) PLS K-fold cross-validation, metrics (cont 23, plotting part)
+25) PLS looking for more outliers (not finished) (cont 23)
+26) univariate cross-validation/RMSEP to compare;
+27) PLS coefs explorer (like loadings, cont 21)
+28) PLS searching for good preprocessing function (cont 23)
+29) comparison of models (plotting part, cont 20, 24, 26, 29)
+
+helper libs:
+freq_pairs.py     # (old) data loader
+linre_explorer.py # 3d interactive plotting
+linre_tools.py    # main stuff
+persons.py        # plot samples colored by patients
+
+converting input data:
+xls2st.py
+xls2st_big.py       # xls to old-pickle
+freq_pairs2np.py    # old to new-numpy
+linre_big_to_3d.py  # for linre_inspector
+
+linre_inspector_gui.py # 3d interactive plotting file explorer
