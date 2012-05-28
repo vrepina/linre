@@ -1,4 +1,6 @@
 
+## !! this may be not effective, use svd
+
 ##calculating eig
 from freq_pairs import load
 from numpy import savez, array, dot, mean, std
